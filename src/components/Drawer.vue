@@ -4,7 +4,7 @@
     <DrawerHead></DrawerHead>
 
     <div v-if="!totalPrice" class="flex h-full items-center">
-      <InfoBlock title="Корзина пустая" description="Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ." imageUrl="/package-icon.png"></InfoBlock>
+      <InfoBlock title="Корзина пустая" description="Добавьте хотя бы одну пару кроссовок, чтобы сделать заказ." imageUrl="./package-icon.png"></InfoBlock>
     </div>
 
     <CartListItem></CartListItem>
